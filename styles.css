@@ -10,7 +10,7 @@ body {
 }
 
 body {
-    background-image: url('/Images/6114100.jpg');
+    background-image: url('Images/6114100.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     /* Additional styling (e.g., background-size, background-position) */
