@@ -41,7 +41,7 @@ header.jumbotron {
     background-color: rgba(92, 154, 175, 0.725);
     /* padding-bottom: 0.15; */
     padding-top: 60px;
-    margin-top: 20px;
+    margin-top: 1.5%;
     margin-bottom: 0px;
     
 }
@@ -53,7 +53,9 @@ header.jumbotron {
   }
 
   header.jumbotron {
-      padding-top: 80px; /* Adjust padding to match the new navbar height */
+      padding-top: 80px;
+       /* Adjust padding to match the new navbar height */
+       margin-top: 1.5%;
   }
 }
 
