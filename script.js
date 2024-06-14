@@ -14,7 +14,26 @@ $(document).ready(function () {
     });
 });
 
-<script>
-function callPhoneNumber() {
-    window.open('tel:+917007375625')};
-</script>
+
+
+// resume download
+
+function downloadFile() {
+    // URL of the file you want to download
+    const fileUrl = '/docs/Resume.pdf';
+    const fileName = 'Shubham_Anand.pdf';
+
+    // Create a temporary <a> element
+    const link = document.createElement('a');
+    link.href = fileUrl;
+    link.download = fileName;
+
+    // Append the <a> element to the document body
+    document.body.appendChild(link);
+
+    // Programmatically click the <a> element to trigger the download
+    link.click();
+
+    // Remove the <a> element from the document
+    document.body.removeChild(link);
+}
