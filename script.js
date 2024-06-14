@@ -20,7 +20,7 @@ $(document).ready(function () {
 
 function downloadFile() {
     // URL of the file you want to download
-    const fileUrl = '/docs/Resume.pdf';
+    const fileUrl = 'docs/Resume.pdf';
     const fileName = 'Shubham_Anand.pdf';
 
     // Create a temporary <a> element
